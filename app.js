@@ -20,7 +20,7 @@ app.post("/figurinha", (request, response)=>{
     console.log(data)
 
     const objectOReturn = {
-        "message":"Dados recebidos"
+        "message":"Dado recebido"
     }
     response.send(objectOReturn)
 })
